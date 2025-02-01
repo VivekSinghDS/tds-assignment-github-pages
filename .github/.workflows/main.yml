@@ -7,10 +7,6 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Print Email
-        run: echo "23ds1000005@ds.study.iitm.ac.in"
+      - name: 23ds1000005@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
